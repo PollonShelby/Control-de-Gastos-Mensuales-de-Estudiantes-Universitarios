@@ -1,0 +1,95 @@
+QMainWindow {
+    background-color: #F4F6F9;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+QLabel#tituloPrincipal {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+QGroupBox {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2C3E50;
+    border: 1px solid #D1D8E0;
+    border-radius: 8px;
+    margin-top: 15px;
+    background-color: #FFFFFF;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 15px;
+    padding: 0 5px;
+}
+QLabel {
+    font-size: 13px;
+    color: #34495E;
+    font-weight: bold;
+}
+QLineEdit, QDoubleSpinBox, QComboBox, QDateEdit {
+    padding: 8px;
+    border: 1px solid #BDC3C7;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    font-size: 14px;
+    color: #2C3E50;
+}
+QLineEdit:focus, QDoubleSpinBox:focus, QComboBox:focus, QDateEdit:focus {
+    border: 2px solid #3498DB;
+    background-color: #FFFFFF;
+}
+QPushButton {
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #2980B9;
+}
+QPushButton#btnEliminar {
+    background-color: #E74C3C;
+}
+QPushButton#btnEliminar:hover {
+    background-color: #C0392B;
+}
+QTableWidget {
+    background-color: #FFFFFF;
+    color: #2C3E50;
+    border: 1px solid #D1D8E0;
+    border-radius: 8px;
+    font-size: 13px;
+    alternate-background-color: #F8F9FA;
+    selection-background-color: #3498DB;
+    selection-color: white;
+}
+QHeaderView::section {
+    background-color: #2C3E50;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    font-size: 13px;
+}
+QLabel#etiquetaTotal {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27AE60;
+    background-color: #EAFAF1;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #2ECC71;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #FFFFFF;
+    color: #2C3E50;
+    selection-background-color: #3498DB;
+    selection-color: white;
+    border: 1px solid #BDC3C7;
+    outline: none;
+}
